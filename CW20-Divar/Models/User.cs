@@ -14,6 +14,6 @@ public class User
     public string Email { get; set; }
     [MaxLength(10)]
     public string Password { get; set; }
-    //public List<Ad> Ads { get; set; }
+    public List<Ad> Ads { get; set; }
     public List<Bookmark> Bookmarks { get; set; }
 }

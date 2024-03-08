@@ -6,4 +6,5 @@ public class Picture
     public string Address { get; set; }
     public Ad Ad { get; set; }
     public int AdId { get; set; }
+    public string Alt { get; set; }
 }

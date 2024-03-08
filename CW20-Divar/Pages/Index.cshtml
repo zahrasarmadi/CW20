@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "دیوار | صفحه اصلی";
+}
+@foreach(var item in Model.Ads)
+{
+<div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="@item.Pictures.Address" alt="@item.Pictures.Alt">
+  <div class="card-body">
+            <h5 class="card-title">@item.Title</h5>
+    <p class="card-text">@item.Description</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+}
